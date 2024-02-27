@@ -28,19 +28,19 @@ cp .env.example .env
 Iniciar o docker: 
 
 ```
-sudo docker-compose up -d nginx mysql phpmyadmin
+docker-compose up -d nginx mysql phpmyadmin
 ```
 
 Verificar os pacotes: 
 
 ```
-sudo docker-compose ps
+docker-compose ps
 ```
 
 Abrir o workspace para usar os comandos do laravel:
 
 ```
-sudo docker-compose exec --user=laradock workspace bash
+ docker-compose exec --user=laradock workspace bash
 ```
 
 ## Comandos Básicos Git / GitHub
