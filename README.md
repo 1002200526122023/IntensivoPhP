@@ -10,9 +10,21 @@ Deve conter informações como clonagem do repositório, comandos básicos de gi
 - https://www.apachefriends.org/pt_br/index.html
 - ( Basta dar next em tudo )
   
-*Após a instalção do XAMPP
+*Após a instalção do XAMPP:
+
+- Abra o arquivo ".exe" do composer, ou, "setup_composer.exe" e faça a instalação novamente dele.
+- Abra as variáveis de ambiente e registre o diretório do xampp no path.
+- Clique OK em todas as páginas das variaveis, feche o terminal se estiver aberto e depois abra novamente.
+
+< Utilize o comando abaixo para verificar se o php foi instalado corretamente:
+>
+
+```
+php --version
+```
 
 <p1> Vá para o terminal, entre na pasta do projeto e utilize o comando a seguir: </p1>
+
 ```
 git clone --recurse-submodules -j8 <LINK_DO_FORK>
 ```
@@ -24,16 +36,24 @@ git clone --recurse-submodules -j8 <LINK_DO_FORK>
 cp .env.example .env
 ```
 
-> Copie o conteúdo do arquivo `.env laradock` da pasta principal e, na pasta **laradock**, cole no arquivo **`.env`**.
-> 
-
-## Comandos Docker
-
-Iniciar o docker: 
+## RODANDO O PROJETO
+< Emita o comando: 
+>
 
 ```
-docker-compose up -d nginx mysql phpmyadmin
+composer install
 ```
+*Aguarde o término da instalação 
+
+
+## XAMPP
+
+Inicando o XAMPP: 
+
+- Abra o XAMPP CONTROL PANEL
+- Inicie o servidor Apache e o Mysql, entre no phpmyadmin:
+
+   
 
 Verificar os pacotes: 
 
