@@ -12,6 +12,7 @@ Deve conter informações como clonagem do repositório, comandos básicos de gi
   
 *Após a instalção do XAMPP:
 
+- Se já tiver o php exclua ele do path nas variavéis de ambiente e exclua ele da pasta C:
 - Abra o arquivo ".exe" do composer, ou, "setup_composer.exe" e faça a instalação novamente dele.
 - Abra as variáveis de ambiente e registre o diretório do xampp no path.
 - Clique OK em todas as páginas das variaveis, feche o terminal se estiver aberto e depois abra novamente.
