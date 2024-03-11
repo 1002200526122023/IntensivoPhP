@@ -28,12 +28,6 @@ php --version
 git clone --recurse-submodules -j8 <LINK_DO_FORK>
 ```
 
-<p3> Dentro da pasta do projeto, faça uma cópia do arquivo `.env.example` e renomeie para `.env` ou apenas execute no cmd: </p3> 
-
-```
-cp .env.example .env
-```
-
 ## RODANDO O PROJETO
 <p4> Emita o comando: </p4>
 
@@ -56,16 +50,43 @@ Inicando o XAMPP:
   
   ![Screenshot_117](https://github.com/DaviAlvarenga01/IntensivoPhP/assets/100244955/63ef5594-3172-49b7-a64c-91ae8279f7fd)
 
-Verificar os pacotes: 
+  ![Screenshot_118](https://github.com/DaviAlvarenga01/IntensivoPhP/assets/100244955/ab42b675-ae16-4475-a079-8a6f8f30a98e)
+  
+  
+<p3> Dentro da pasta do projeto, faça uma cópia do arquivo `.env.example` e renomeie para `.env` ou apenas execute no cmd: </p3> 
 
 ```
-docker-compose ps
+cp .env.example .env
 ```
 
-Abrir o workspace para usar os comandos do laravel:
+<p5> Configure o seu banco de dados no .env </p5>
+  
+  ![Untitled](https://github.com/DaviAlvarenga01/IntensivoPhP/assets/100244955/a88c2b8a-df1c-4223-88d3-abbe20eb2247)
+
+- Gere a chave da aplicação:
 
 ```
- docker-compose exec --user=laradock workspace bash
+php artisan key:generate
+```
+
+- Rode as migrações do projeto:
+
+```
+php artisan migrate --seed
+```
+
+#### o parametro seed indica para semear o BD -- 
+
+- Inicie o projeto:
+  
+```
+php artisan serve
+```
+
+- Ao final, deve-se gerar uma chave para o super usuário com o comando:
+
+```
+php artisan jwt:secret
 ```
 
 ## Comandos Básicos Git / GitHub
