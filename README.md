@@ -5,10 +5,14 @@ Deve conter informações como clonagem do repositório, comandos básicos de gi
 
 ## Começando…
 
-*É necessário ter o docker instalado. Se possível, utilizar WSL2.*
+*Faça a instalação do XAMPP utilizando o seguinte link: 
 
-Assim que for adicionado como colaborador no repositório, dê o fork do projeto no seu GitHub e clone o fork na sua máquina:
+- https://www.apachefriends.org/pt_br/index.html
+- ( Basta dar next em tudo )
+  
+*Após a instalção do XAMPP
 
+<p1> Vá para o terminal, entre na pasta do projeto e utilize o comando a seguir: </p1>
 ```
 git clone --recurse-submodules -j8 <LINK_DO_FORK>
 ```
