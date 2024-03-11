@@ -16,8 +16,7 @@ Deve conter informações como clonagem do repositório, comandos básicos de gi
 - Abra as variáveis de ambiente e registre o diretório do xampp no path.
 - Clique OK em todas as páginas das variaveis, feche o terminal se estiver aberto e depois abra novamente.
 
-< Utilize o comando abaixo para verificar se o php foi instalado corretamente:
->
+<p2> Utilize o comando abaixo para verificar se o php foi instalado corretamente: </p2>
 
 ```
 php --version
@@ -29,8 +28,7 @@ php --version
 git clone --recurse-submodules -j8 <LINK_DO_FORK>
 ```
 
-> Dentro da pasta do projeto, faça uma cópia do arquivo `.env.example` e renomeie para `.env` ou apenas execute no cmd:
-> 
+<p3> Dentro da pasta do projeto, faça uma cópia do arquivo `.env.example` e renomeie para `.env` ou apenas execute no cmd: </p3> 
 
 ```
 cp .env.example .env
