@@ -35,8 +35,7 @@ cp .env.example .env
 ```
 
 ## RODANDO O PROJETO
-< Emita o comando: 
->
+<p4> Emita o comando: </p4>
 
 ```
 composer install
@@ -51,7 +50,11 @@ Inicando o XAMPP:
 - Abra o XAMPP CONTROL PANEL
 - Inicie o servidor Apache e o Mysql, entre no phpmyadmin:
 
-   
+   ![Screenshot_116](https://github.com/DaviAlvarenga01/IntensivoPhP/assets/100244955/00626122-7f73-453d-b90d-347b1559bc76)
+
+- Crie um esquema da banco de dados utilizando o próprio xampp.
+  
+  ![Screenshot_117](https://github.com/DaviAlvarenga01/IntensivoPhP/assets/100244955/63ef5594-3172-49b7-a64c-91ae8279f7fd)
 
 Verificar os pacotes: 
 
